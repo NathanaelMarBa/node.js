@@ -1,0 +1,19 @@
+{
+  "name": "servidor-express",
+  "version": "1.0.0",
+  "description": "Primer servidor con node y express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src src/app.js"
+  },
+  "author": "Nathanael Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
